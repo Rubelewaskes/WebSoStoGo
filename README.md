@@ -1,1 +1,2 @@
 # WebSoStoGo
+Гриша лох
