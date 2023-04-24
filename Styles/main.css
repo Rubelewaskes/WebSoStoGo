@@ -86,7 +86,7 @@ header .headercontainer .searchbutton {
   margin-top: 0px;
   float: left;
   background-color: #4ab0fe;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 600;
   color: #ffffff;
   border-radius: 14px 14px;
@@ -101,7 +101,7 @@ header .headercontainer .searchbutton {
   margin-top: 0px;
   float: right;
   background-color: #ffffff;
-  font-size: 20px;
+  font-size: 1em;
   color: #000000;
   border-radius: 14px 14px;
   font-weight: 400;
@@ -150,7 +150,7 @@ header .headercontainer .searchbutton {
   float: top;
   margin-top: 0px;
   margin-bottom: 2px;
-  font-size: 1vw;
+  font-size: 1em;
   color: #1b1b1b;
 }
 
@@ -160,7 +160,7 @@ h3 {
   margin-top: 5px;
   margin-bottom: 2px;
   float: left;
-  font-size: 0.9vw;
+  font-size: 0.9em;
 }
 
 .intro .gamelist .game .info h2 {
