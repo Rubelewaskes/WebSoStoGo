@@ -1,0 +1,194 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1b1b1b;
+  margin: 0;
+}
+
+*,
+*after,
+*before {
+  box-sizing: border-box;
+}
+
+a.searcha:active,
+a.searcha:hover,
+a.searcha {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 0px;
+}
+
+header {
+  width: 100%;
+  max-width: 100%;
+  height: 65px;
+  background-color: #7a7a7a;
+}
+
+.headercontainer {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+header .headercontainer .search {
+  float: left;
+  width: 50%;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+header .headercontainer .search input {
+  float: left;
+  display: block;
+  width: 70%;
+  height: 43px;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 7px 0px 0px 7px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+header .headercontainer .searchbutton {
+  float: left;
+  background-color: #70c1ff;
+  font-size: 8px;
+  border-radius: 0px 7px 7px 0px;
+  width: 27%;
+  height: 45px;
+  text-align: center;
+}
+
+.intro {
+  width: 100%;
+  height: 200vh;
+  background-color: #70c1ff;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  height: 90%;
+}
+
+.bodyicon {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 275px;
+}
+
+.gameinfo {
+  width: 1270px;
+  max-width: 1270px;
+  height: 300px;
+  margin-left: 25px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.gameicon {
+  float: left;
+  border-radius: 15px;
+  width: 166px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.maininfo {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 35% 40%;
+  grid-template-rows: 65% 30%;
+}
+
+.universal {
+  float: left;
+  font-size: 9px;
+  color: #7a7a7a;
+}
+
+.notuniversal {
+  float: left;
+  font-size: 9px;
+  color: #1b1b1b;
+}
+
+.platformsicons {
+  margin-top: 7px;
+  display: grid;
+  grid-template-columns: 40px 35px;
+  grid-template-rows: 40px 35px;
+}
+
+.description {
+  float: left;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 400px;
+  font-size: 10px;
+}
+
+.grades {
+  padding-top: 5%;
+  padding-left: 3%;
+  display: grid;
+  grid-template-columns: 100px 80px;
+  grid-template-rows: 100px 80px;
+  font-size: 10px;
+}
+
+.grade {
+  border-radius: 15px;
+  height: 75px;
+  width: 75px;
+  font-size: 15px;
+  background-color: #43a4ff;
+  text-align: center;
+}
+
+.sist_treb {
+  height: 40px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.reviews {
+  height: 266px;
+}
+
+.review {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  margin-left: 25px;
+}
+
+.reviewer {
+  display: block;
+  background-color: #757575;
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+}
