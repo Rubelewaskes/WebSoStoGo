@@ -43,34 +43,38 @@ header .headercontainer {
   margin-top: 22vh;
 }
 
-.search {
+.intro .container .search {
   float: left;
-  width: 50%;
-  height: 45px;
-  margin-top: 10px;
-  margin-left: 20%;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
-.search input {
+.intro .container .search input {
   float: left;
-  display: block;
-  width: 70%;
-  height: 43px;
-  font-size: 15px;
+  display: grid;
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
   color: #000000;
   background-color: #ffffff;
-  background-clip: padding-box;
   border: none;
-  border-radius: 7px 0px 0px 7px;
+  border-radius: 10px 10px 10px 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.searchbutton {
-  float: left;
-  background-color: #70c1ff;
-  font-size: 8px;
-  border-radius: 0px 7px 7px 0px;
-  width: 27%;
-  height: 45px;
-  text-align: center;
+.intro .container .input_fields {
+  width: 400px;
+  height: 135px;
 }
+
+.intro .container .btn {
+  margin: 50px auto;
+  width: 3rem;
+  height: 1.5rem;
+  display: block; /* Строчно-блочный элемент */
+  background: #70c1ff; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 10px; /* Скругляем уголки */
+ }
