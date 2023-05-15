@@ -39,8 +39,8 @@ header .headercontainer {
   background-color: #e0e0e0;
   border-radius: 15px;
   height: 100%;
-  max-height: 52%;
-  margin-top: 22vh;
+  max-height: 62%;
+  margin-top: 18vh;
 }
 
 .intro .container .search {
@@ -69,13 +69,14 @@ header .headercontainer {
 
 .intro .container button.btn {
   border: none;
-  margin: 50px auto;
-  width: 6rem;
-  height: 3rem;
+  margin: 200px auto;
+  width: 12rem;
+  height: 4rem;
   display: block; /* Строчно-блочный элемент */
   background: #70c1ff; /* Серый цвет фона */
   color: #fff; /* Белый цвет текста */
   padding: 1rem 1.5rem; /* Поля вокруг текста */
   text-decoration: none; /* Убираем подчёркивание */
   border-radius: 10px; /* Скругляем уголки */
+  font-size: 20px;
  }
