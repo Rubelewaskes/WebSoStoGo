@@ -32,29 +32,29 @@ header .headercontainer {
   padding-top: 20px;
 }
 
-.intro .container{
+.intro .container {
   width: 100%;
-  max-width: 23%;
+  max-width: 20%;
   margin: 0 auto;
   background-color: #e0e0e0;
   border-radius: 15px;
   height: 100%;
-  max-height: 62%;
-  margin-top: 18vh;
+  max-height: 50%;
+  margin-top: 22vh;
 }
 
-.intro .container .search {
+.intro .container .input_info {
   float: left;
   margin-top: 15px;
   margin-left: 15px;
 }
 
-.intro .container .search input {
+.intro .container .input_info input {
   float: left;
   display: grid;
-  width: 400px;
-  height: 60px;
-  font-size: 20px;
+  width: 345px;
+  height: 50px;
+  font-size: 15px;
   color: #000000;
   background-color: #ffffff;
   border: none;
@@ -64,10 +64,11 @@ header .headercontainer {
 
 .intro .container .input_fields {
   width: 400px;
-  height: 135px;
+  height: 100px;
 }
 
 .intro .container button.btn {
+  font-size: 15px;
   border: none;
   margin: 200px auto;
   width: 12rem;
@@ -78,5 +79,4 @@ header .headercontainer {
   padding: 1rem 1.5rem; /* Поля вокруг текста */
   text-decoration: none; /* Убираем подчёркивание */
   border-radius: 10px; /* Скругляем уголки */
-  font-size: 20px;
- }
+}
