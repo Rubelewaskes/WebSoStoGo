@@ -49,7 +49,8 @@ header .headercontainer {
   margin-left: 15px;
 }
 
-.intro .container .input_info input {
+.intro .container .input_info .input {
+  padding-left: 5px;
   float: left;
   display: grid;
   width: 345px;
@@ -64,16 +65,12 @@ header .headercontainer {
 
 .intro .container .input_fields {
   margin-top: 15px;
-  width: 400px;
-  height: 120px;
+  width: 345px;
 }
 
 .intro .container button.btn {
   font-size: 15px;
   border: none;
-  margin: 50px auto;
-  width: 6rem;
-  height: 3rem;
   display: block; /* Строчно-блочный элемент */
   background: #70c1ff; /* Серый цвет фона */
   color: #fff; /* Белый цвет текста */
