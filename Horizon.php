@@ -1,10 +1,13 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="Styles/gamepage.css">
         <title>
-            Marvel's Spider-Man: Miles Morales
+            Horizon: Forbidden West
         </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +16,7 @@
     <body>
         <header>
             <div class="headercontainer">
-              <a href="index.html">
+              <a href="index.php">
                 <img
                   style="float: left"
                   src="Icons/free-icon-game-controller-1068778.png"
@@ -31,15 +34,24 @@
                     <h1 style="color: #ffffff">Поиск</h1>
                   </div>
                 </a>
+                <?php
+                    if($_SESSION['user']){
+                        echo '<a style="float: right" href="PHPScripts/exit.php">Выход</a><p style="float: right">' . $_SESSION['user']['name'] . '</p> ';
+                    }
+                    else{
+                        echo '
+                        <a href="Auth.php"> <img style="float: right" src="Icons/auth.png" width="60" height="60"/></a>';
+                    }
+                ?>
               </div>
             </div>
           </header>
         <div class="intro">
             <main class="container">
-                <img src = "Images/bigCover/SMMM.jpg" class="bodyicon"></img>
-                <h1 style="margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">Marvel's Spider-Man: Miles Morales</h1>
+                <img src = "Images/bigCover/Horizon.jpg" class="bodyicon"></img>
+                <h1 style="margin-left: 30px; margin-top: 5px; margin-bottom: 5px;">Horizon: Forbidden West</h1>
                 <section class="gameinfo">
-                    <img src = "Images/miniCover/SMMM.png" class="gameicon"/>
+                    <img src = "Images/miniCover/Horizon.png" class="gameicon"/>
                     <div class="maininfo">
                         <div class="universal">
                             <h1>Разработчик</h1>
@@ -49,11 +61,11 @@
                             <h1>Дата выхода</h1>
                         </div>
                         <div class="notuniversal">
-                            <h1>Insomniac Games</h1>
-                            <h1>PlayStation Studios</h1>
+                            <h1>Guerilla Games</h1>
+                            <h1>PlayStation Stoudios</h1>
                             <h1>PC|PS4|PS5|XBOXSX|XONE</h1>
-                            <h1>Экшен от 3 лица</h1>
-                            <h1>12.11.2020</h1>
+                            <h1>Экшен-RPG</h1>
+                            <h1>18.02.2022</h1>
                         </div>
                         <div class="platformsicons">
                             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src="Icons/playstation-logotype.png" width="32" height="32"/> </a>
@@ -65,8 +77,7 @@
                     <div class="description">
                         <h1 style="margin: 0; color: #7a7a7a;">Описание:</h1>
                         <h2 style="margin: 0; color: #1b1b1b;">
-                            Спин-офф Marvel's Spider-Man, в котором игрокам достаётся роль Майлза Моралеса, который только учится владеть невероятной силой, чтобы впоследствии стать новым Человеком-пауком. Юный Майлз Моралес пытается привыкнуть к своему новому дому и продолжает дело своего наставника Питера Паркера в качестве нового Человека-паука.
-                        </h1>
+                            Сиквел Horizon: Zero Dawn, продолжающий историю Элой в её путешествии на запад по Америке далёкого будущего. Главной героине снова предстоит отправиться исследовать опасные земли, где она встретится с невероятными машинами и загадочными новыми угрозами.</h1>
                     </div>
                     <a style="float: left; width: 2px; height: 80%; background-color:#dadada; margin-top: 25px; margin-left:25px ;"></a>
                     <div class="grades">
