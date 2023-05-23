@@ -6,7 +6,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="Styles/Reg.css" />
+    <link rel="stylesheet" href="Styles/Auth.css" />
     <title>SSG - лучший игровой портал/</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,31 +29,28 @@
       </div>
     </header>
     <main class="intro">
-      <form class="container" action="vendor/signup.php" method="post">
+      <form class="container" style="max-height: 62%" action="PHPScripts/signup.php" method="post">
         <div style="width: 80%; height: 10%; text-align: center; margin: 0 auto">
           <h1 style="color: #333333; font-size: 24px; display: inline-block">
             Регистрация
           </h1>
         </div>
         <div class="input_fields">
-          <div class="search">
-            <input name="Name" style="padding-left: 5px" placeholder="Имя пользователя" />
-            <a class="searcha"> </a>
+          <div class="input_info">
+            <input class="input" name="Name" placeholder="Имя пользователя" />
           </div>
-          <div class="search">
-            <input name="Login" style="padding-left: 5px" placeholder="Логин" />
-            <a class="searcha"> </a>
+          <div class="input_info">
+            <input class="input" name="Login" placeholder="Логин" />
           </div>
-          <div class="search">
-            <input name="Password" type="password" style="padding-left: 5px" placeholder="Пароль" />
-            <a class="searcha"> </a>
+          <div class="input_info">
+            <input class="input" name="Password" type="password" placeholder="Пароль" />
           </div>
-          <div class="search">
-            <input name="PasswordConfirm" type="password" style="padding-left: 5px" placeholder="Повторите пароль" />
-            <a class="searcha"> </a>
+          <div class="input_info">
+            <input class="input" name="PasswordConfirm" type="password" placeholder="Повторите пароль" />
           </div>
         </div>
-        <button class="btn">Регистрация</button>
+        <button class="btn" style = "width: 12rem">Регистрация</button>
+        <p>Уже есть аккаунт? <a href="Auth.php">Авторизация<a></a></p>
         <?php
             if($_SESSION['message']){
                 echo '<p>' . $_SESSION['message'] . '</p>';

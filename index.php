@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,7 +18,7 @@
   <body>
     <header>
       <div class="headercontainer">
-        <a href="index.html">
+        <a href="index.php">
           <img
             style="float: left"
             src="Icons/free-icon-game-controller-1068778.png"
@@ -33,14 +37,23 @@
             </div>
           </a>
         </div>
-        <a href="Reg.html">
-          <img
-            style="float: right"
-            src="Icons/auth.png"
-            width="55"
-            height="55"
-          />
-        </a>
+        <?php
+            if($_SESSION['user']){
+                echo '<a style="float: right" href="PHPScripts/exit.php">Выход</a><p style="float: right">' . $_SESSION['user']['name'] . '</p> ';
+            }
+            else{
+                echo '
+                <a href="Auth.php">
+                    <img
+                    style="float: right"
+                    src="Icons/auth.png"
+                    width="60"
+                    height="60"
+                    />
+                </a>';
+            }
+            
+        ?>
       </div>
     </header>
     <main class="intro">
@@ -56,7 +69,7 @@
         </div>
         <section class="gamelist">
           <div class="game">
-            <a href="Atomic_Heart.html"><img src="Images/miniCover/56297_Atomic_Heart.jpg"/></a>
+            <a href="Atomic_Heart.php"><img src="Images/miniCover/56297_Atomic_Heart.jpg"/></a>
             <div class="info">
               <h1>Atomic Heart</h1>
               <h2>Разработчк</h2>
@@ -74,7 +87,7 @@
             </div>
           </div>
           <div class="game">
-            <a href="Cyberpunk2077.html"><img src="Images/miniCover/Cyberpunk2077.png" /></a>
+            <a href="Cyberpunk2077.php"><img src="Images/miniCover/Cyberpunk2077.png" /></a>
             <div class="info">
               <h1>Cyberpunk 2077</h1>
               <h2>Разработчк</h2>
@@ -92,7 +105,7 @@
             </div>
           </div>
           <div class="game">
-            <a href="Horizon.html"><img src="Images/miniCover/Horizon.png" /></a>
+            <a href="Horizon.php"><img src="Images/miniCover/Horizon.png" /></a>
             <div class="info">
               <h1>Horizon: Forbidden West</h1>
               <h2>Разработчк</h2>
@@ -110,7 +123,7 @@
             </div>
           </div>
           <div class="game">
-            <a href="RE4.html"><img src="Images/miniCover/RE4.png" /></a>
+            <a href="RE4.php"><img src="Images/miniCover/RE4.png" /></a>
             <div class="info">
               <h1>Resident Evil 4 (2023)</h1>
               <h2>Разработчк</h2>
@@ -128,7 +141,7 @@
             </div>
           </div>
           <div class="game">
-            <a href="SMMM.html"><img src="Images/miniCover/SMMM.png" /></a>
+            <a href="SMMM.php"><img src="Images/miniCover/SMMM.png" /></a>
             <div class="info">
               <h1>Marvel's Spider-Man: Miles Morales</h1>
               <h2>Разработчк</h2>
@@ -146,7 +159,7 @@
             </div>
           </div>
           <div class="game">
-            <a href="Hogwarts.html"><img src="Images/miniCover/Hogwarts.png" /></a>
+            <a href="Hogwarts.php"><img src="Images/miniCover/Hogwarts.png" /></a>
             <div class="info">
               <h1>Hogwarts Legacy</h1>
               <h2>Разработчк</h2>
