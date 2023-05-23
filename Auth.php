@@ -29,7 +29,7 @@
       </div>
     </header>
     <main class="intro">
-      <form class="container" action="PHPScripts/signin.php" method="post">
+      <form class="container" style="max-height: 35%" action="PHPScripts/signin.php" method="post">
         <div
           style="width: 80%; height: 10%; text-align: center; margin: 0 auto"
         >
@@ -37,21 +37,20 @@
             Авторизация
           </h1>
         </div>
-        <div class="input_fields">
+        <div class="input_fields" style="height: 120px">
           <div class="input_info">
-            <input class="input" name="login" style="padding-left: 5px" placeholder="Логин" />
+            <input class="input" name="login" placeholder="Логин" />
           </div>
           <div  class="input_info">
             <input
               class="input"
               name="password"
               type="password"
-              style="padding-left: 5px"
               placeholder="Пароль"
             />
           </div>
         </div>
-        <button type="submit" class="btn">Войти</button>
+        <button type="submit" class="btn" style="width: 6rem; height: 3rem; margin: 50px auto">Войти</button>
         <p>Нет аккаунта? <a href="Reg.php">Регистрация</a></p>
         <?php
             if($_SESSION['message']){
