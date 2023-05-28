@@ -167,10 +167,48 @@ header .headercontainer .searchbutton {
   text-align: center;
 }
 
-.sist_treb {
-  height: 40px;
+.intro .container .sist_treb {
+  height: 340px;
+  width: 1000px;
   margin-left: 30px;
-  font-size: 15px;
+  display: block;
+}
+
+.intro .container .sist_treb h1 {
+  height: 10px;
+}
+
+.intro .container .sist_treb h2 {
+  font-size: 20px;
+  height: 10px;
+}
+
+.intro .container .sist_treb .sist_treb_min {
+  margin-top: 15px;
+  float: left;
+}
+
+.intro .container .sist_treb .sist_treb_rec {
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+
+.intro .container .sist_treb .st_left {
+  float: left;
+}
+
+.intro .container .sist_treb .st_right {
+  margin-left: 10px;
+  float: right;
+}
+
+.intro .container .reviewH {
+  margin-top: 15px;
+  display: inline-block;
+  height: 50px;
+  width: 400px;
+  height: 75px;
 }
 
 .reviews {

@@ -95,9 +95,48 @@
 
                 
                 <div class="sist_treb">
-                    <h1>Системные требования</h1>
+                    <h1>Системные требования:</h1>
+                    <div class = "sist_treb_min">
+                        <h2>Минимальные</h2>
+                        <div class="st_left">
+                            <p>ОС:</p>
+                            <p>Процессор:</p>
+                            <p>Оперативная память:</p>
+                            <p>Видеокарта:</p>
+                            <p>DirectX:</p>
+                            <p>Место на диске:</p>
+                        </div>
+                        <div class="st_right">
+                            <p>ОС:</p>
+                            <p>Процессор:</p>
+                            <p>Оперативная память:</p>
+                            <p>Видеокарта:</p>
+                            <p>DirectX:</p>
+                            <p>Место на диске:</p>
+                        </div>
+                    </div>
+                    <div class = "sist_treb_rec">
+                        <h2>Рекомендуемые</h2>
+                        <div class="st_left">
+                            <p>ОС:</p>
+                            <p>Процессор:</p>
+                            <p>Оперативная память:</p>
+                            <p>Видеокарта:</p>
+                            <p>DirectX:</p>
+                            <p>Место на диске:</p>
+                        </div>
+                        <div class="st_right">
+                            <p>ОС:</p>
+                            <p>Процессор:</p>
+                            <p>Оперативная память:</p>
+                            <p>Видеокарта:</p>
+                            <p>DirectX:</p>
+                            <p>Место на диске:</p>
+                        </div>
+                    </div>
+                    
                 </div>
-                <section style="margin-top: 15px; display: inline-block; height: 50px; width: 400px; height: 75px">
+                <section class="reviewH">
                         <h style="font-weight: 900; font-size: 30px; margin-left: 30px; width: 100px">Отзывы</h>
                         <a class="reviewButton" href="Review.php">Написать</a>
                 </section>
