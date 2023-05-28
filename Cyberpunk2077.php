@@ -107,12 +107,12 @@
                             <p>Место на диске:</p>
                         </div>
                         <div class="st_right">
-                            <p>ОС:</p>
-                            <p>Процессор:</p>
-                            <p>Оперативная память:</p>
-                            <p>Видеокарта:</p>
-                            <p>DirectX:</p>
-                            <p>Место на диске:</p>
+                            <p>Windows 10</p>
+                            <p>Intel Core i5-3570K or AMD FX-8310</p>
+                            <p>8 GB ОЗУ</p>
+                            <p>NVIDIA GeForce GTX 970 or AMD Radeon RX 470</p>
+                            <p>Версии 12</p>
+                            <p>70 GB SSD</p>
                         </div>
                     </div>
                     <div class = "sist_treb_rec">
@@ -126,12 +126,12 @@
                             <p>Место на диске:</p>
                         </div>
                         <div class="st_right">
-                            <p>ОС:</p>
-                            <p>Процессор:</p>
-                            <p>Оперативная память:</p>
-                            <p>Видеокарта:</p>
-                            <p>DirectX:</p>
-                            <p>Место на диске:</p>
+                            <p>Windows 10</p>
+                            <p> Intel Core i7-4790 or AMD Ryzen 3 3200G</p>
+                            <p>12 GB ОЗУ</p>
+                            <p>GTX 1060 6GB / GTX 1660 Super or Radeon RX 590</p>
+                            <p>Версии 12</p>
+                            <p>70 GB SSD</p>
                         </div>
                     </div>
                     
