@@ -40,7 +40,7 @@
                     }
                     else{
                         echo '
-                        <a href="Auth.php"> <img style="float: right" src="Icons/auth.png" width="60" height="60"/></a>';
+                        <a href="Auth.php"> <img style="float: right; margin-left: 5px" src="Icons/log-in.png" width="55" height="55"/></a>';
                     }
                 ?>
               </div>
@@ -97,15 +97,18 @@
                 <div class="sist_treb">
                     <h1>Системные требования</h1>
                 </div>
+                <section style="margin-top: 15px; display: inline-block; height: 50px; width: 400px; height: 75px">
+                        <h style="font-weight: 900; font-size: 30px; margin-left: 30px; width: 100px">Отзывы</h>
+                        <a class="reviewButton" href="Review.php">Написать</a>
+                </section>
                 <section class = "reviews"> 
-                        <h1 style="font-size: 30px; margin-left: 30px;">Отзывы</h1>
                         <div class = "review">
                             <div class = "reviewer">
                                 <h1 style="color: #ffffff; float: left; font-size: 15px; margin-left: 10px; margin-top: 12px;">Lord Rubelewaskes</h1>
                                 <img style="float: right; margin-right: 10px; margin-top: 10px;" src="Icons/like.png" width="25" height="25">
                                 <img style="float: right; margin-right: 10px; margin-top: 16px;" src="Icons/dislike (2).png" width="25" height="25">
                             </div>
-                            <h1 style="color: #1b1b1b;; float: left; font-size: 13px; margin-left: 10px;">Отличная игра всем советую, правда очень легкая.</h1>
+                            <h1 style="color: #1b1b1b;; float: left; font-size: 13px; margin-left: 10px;">"Cyberpunk 2077" - ошеломляющий мир будущего. Огромный открытый город Найт-Сити, пропитанный киберпанк эстетикой, впечатляет своей детализацией. Ролевая система позволяет создать уникального персонажа и влиять на сюжет с помощью выборов. Однако, игра страдает от технических проблем, недоработок и багов, что портит общее впечатление. Несмотря на это, "Cyberpunk 2077" предлагает глубокий геймплей, захватывающие миссии и захватывающую историю в жанре научной фантастики.</h1>
                         </div>
 
                         <div class = "review">

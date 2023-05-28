@@ -33,7 +33,7 @@ header {
 
 .headercontainer {
   width: 100%;
-  max-width:  68.75%;
+  max-width: 68.75%;
   margin: 0 auto;
 }
 
@@ -174,14 +174,14 @@ header .headercontainer .searchbutton {
 }
 
 .reviews {
-  height: 266px;
+  height: 316px;
 }
 
 .review {
   display: inline-block;
   background-color: #ffffff;
   width: 400px;
-  height: 200px;
+  height: 250px;
   border-radius: 15px;
   margin-left: 25px;
 }
@@ -192,4 +192,17 @@ header .headercontainer .searchbutton {
   width: 400px;
   height: 50px;
   border-radius: 15px;
+}
+
+.reviewButton {
+  width: 4.5rem;
+  height: 1rem;
+  margin-left: 5px;
+  font-size: 15px;
+  border: none;
+  background: #70c1ff;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  border-radius: 10px;
 }
