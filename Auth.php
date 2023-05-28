@@ -37,7 +37,7 @@
             Авторизация
           </h1>
         </div>
-        <div class="input_fields" style="height: 120px">
+        <div class="input_fields" style="height: 40%">
           <div class="input_info">
             <input class="input" name="login" placeholder="Логин" />
           </div>
@@ -50,8 +50,8 @@
             />
           </div>
         </div>
-        <button type="submit" class="btn" style="width: 6rem; height: 3rem; margin: 50px auto">Войти</button>
-        <p>Нет аккаунта? <a href="Reg.php">Регистрация</a></p>
+        <button type="submit" class="btn" style="width: 6rem; height: 3rem; margin: 40px auto 0 auto">Войти</button>
+        <p style="margin-left: 70px;">Еще не с нами? <a style=" text-decoration: none; color: #43a4ff" href="Reg.php">Зарегестрируйся!</a></p>
         <?php
             if($_SESSION['message']){
                 echo '<p>' . $_SESSION['message'] . '</p>';
