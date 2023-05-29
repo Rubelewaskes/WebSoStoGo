@@ -90,6 +90,8 @@
                             <h1 style="color: #ffffff;">8.6</h1>
                         </div>
                         <h1>Оценка пользователей</h1>
+
+                        </div>
                     </div>
                 </section>
 
